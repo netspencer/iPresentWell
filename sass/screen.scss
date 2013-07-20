@@ -30,7 +30,19 @@ body {
 }
 
 #text {
-	height: 604px;
+	height: 808px;
 	background: #EEE;
 	width: 100%;
+	overflow: scroll;
+
+	div.content {
+		padding: 30px;
+		line-height: 2;
+		font-size: 20px;
+
+		p {
+			margin-bottom: 20px;
+		}
+	}
+
 }

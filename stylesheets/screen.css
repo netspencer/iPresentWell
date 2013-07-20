@@ -82,6 +82,15 @@ body {
 
 /* line 32, ../sass/screen.scss */
 #text {
-  height: 604px;
+  height: 808px;
   background: #EEE;
-  width: 100%; }
+  width: 100%;
+  overflow: scroll; }
+  /* line 38, ../sass/screen.scss */
+  #text div.content {
+    padding: 30px;
+    line-height: 2;
+    font-size: 20px; }
+    /* line 43, ../sass/screen.scss */
+    #text div.content p {
+      margin-bottom: 20px; }
