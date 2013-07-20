@@ -65,32 +65,30 @@ body {
 
 /* line 14, ../sass/screen.scss */
 #page {
-  width: 980px;
-  height: 1208px;
   background: #000;
   overflow: hidden; }
 
-/* line 21, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 #eyes {
   height: 400px;
   background: #CCC;
   width: 100%;
   overflow: hidden; }
-  /* line 27, ../sass/screen.scss */
+  /* line 25, ../sass/screen.scss */
   #eyes img {
     width: 100%; }
 
-/* line 32, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 #text {
   height: 808px;
   background: #EEE;
   width: 100%;
   overflow: scroll; }
-  /* line 38, ../sass/screen.scss */
+  /* line 36, ../sass/screen.scss */
   #text div.content {
     padding: 30px;
     line-height: 2;
     font-size: 20px; }
-    /* line 43, ../sass/screen.scss */
+    /* line 41, ../sass/screen.scss */
     #text div.content p {
       margin-bottom: 20px; }
