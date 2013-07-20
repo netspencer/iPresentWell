@@ -1,0 +1,36 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/* 980x1208 */
+
+@import "compass/reset";
+
+body {
+	background: #FFF;
+}
+
+#page {
+	width: 980px;
+	height: 1208px;
+	background:#000;
+	overflow: hidden;
+}
+
+#eyes {
+	height: 604px;
+	background: #CCC;
+	width: 100%;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+	}
+}
+
+#text {
+	height: 604px;
+	background: #EEE;
+	width: 100%;
+}
